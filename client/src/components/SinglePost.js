@@ -1,14 +1,13 @@
 import React, { useState, useEffect, useContext } from "react";
-import { useLocation } from "react-router-dom";
+import { useParams } from "react-router-dom";
 import FileBase64 from "react-filebase64";
 import { UserContext } from "../contexts/UserContext";
 import axios from "../Axios";
 import "./SinglePost.css";
 
 function SinglePost() {
-  let location = useLocation();
   const { user } = useContext(UserContext);
-  const id = location.pathname.split("/")[1];
+  const { id } = useParams();
   const [post, setPost] = useState({});
   const [title, setTitle] = useState("");
   const [content, setContent] = useState("");
