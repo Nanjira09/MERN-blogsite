@@ -1,0 +1,36 @@
+.write {
+  padding: 20px;
+  margin-bottom: 20px;
+}
+.write-img {
+  width: 80%;
+  margin: auto;
+  margin-bottom: 20px;
+}
+.write-img img {
+  width: 100%;
+  height: 250px;
+  object-fit: cover;
+  border-radius: 5px;
+}
+form {
+  display: flex;
+  flex-direction: column;
+}
+input[type="text"] {
+  padding: 10px;
+  border-radius: 5px;
+  margin: 10px 0;
+}
+textarea {
+  border-radius: 5px;
+  padding: 10px;
+}
+input[type="submit"] {
+  padding: 10px 12px;
+  width: 100px;
+  margin-top: 20px;
+  border-radius: 5px;
+  background-color: teal;
+  color: white;
+}

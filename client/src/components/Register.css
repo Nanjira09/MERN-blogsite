@@ -1,0 +1,21 @@
+.register {
+  display: flex;
+  flex-direction: column;
+  height: 100vh;
+  justify-content: center;
+  align-items: center;
+  background-image: url("https://www.mwallpapers.com/download-image/592933/1080x607");
+  background-size: cover;
+}
+input[type="email"] {
+  padding: 10px;
+  border-radius: 5px;
+  margin: 10px 0;
+}
+.register p {
+  font-size: 20px;
+  font-weight: bold;
+}
+input:focus {
+  outline: none;
+}

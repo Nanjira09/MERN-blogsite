@@ -1,0 +1,40 @@
+.post {
+  max-width: 400px;
+  display: flex;
+  flex-direction: column;
+  border: 1px solid #d4d4d5;
+  border-radius: 5px;
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.4);
+  margin-bottom: 20px;
+}
+
+.post-img {
+  width: 100%;
+  object-fit: cover;
+  height: 300px;
+}
+.post-title {
+  margin: 0;
+  padding-left: 5px;
+  font-size: 20px;
+  font-weight: 700;
+}
+.post-author {
+  padding-left: 5px;
+}
+.post-date {
+  padding-left: 5px;
+  font-style: italic;
+}
+.post-description {
+  padding: 5px;
+}
+button {
+  width: 50px;
+  margin: 10px;
+  align-self: flex-end;
+  cursor: pointer;
+  border: none;
+  padding: 5px;
+  border-radius: 5px;
+}

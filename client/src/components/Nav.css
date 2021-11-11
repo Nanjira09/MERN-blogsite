@@ -1,0 +1,29 @@
+.navbar {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  /* padding: 10px 20px; */
+}
+.navbar > ul {
+  list-style: none;
+  width: 80%;
+  justify-content: space-around;
+  align-items: center;
+  display: flex;
+}
+.navbar > ul > li {
+  text-transform: uppercase;
+  cursor: pointer;
+}
+
+.profileImg {
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  cursor: pointer;
+}
+a {
+  text-decoration: none;
+  color: inherit;
+}

@@ -1,0 +1,72 @@
+POST http://localhost:5000/user/register
+content-type: application/json
+
+{
+    "username": "Chimamanda",
+    "email": "nanji@example.com",
+    "password": "9070"
+}
+
+###
+
+POST http://localhost:5000/user/login
+content-type: application/json
+
+{
+    "username": "Chimamanda",
+    "password": "9070"
+}
+
+###
+
+DELETE http://localhost:5000/user/6188f048e5dd663968b290d7
+auth: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjYxODhmMDQ4ZTVkZDY2Mzk2OGIyOTBkNyIsInVzZXJuYW1lIjoiQ2hpbWFtYW5kYSIsImlhdCI6MTYzNjM2NDkyOH0.1Gr0UXbCkn1H36UdGHjn5AfmPEzqA7KQ58zBS8eh49s
+
+###
+
+PATCH http://localhost:5000/user/6188034ed36c052dfcd9d48c
+content-type: application/json
+auth: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjYxODgwMzRlZDM2YzA1MmRmY2Q5ZDQ4YyIsInVzZXJuYW1lIjoiZ29tZXoiLCJpYXQiOjE2MzYzMDM3OTh9.LM81hsSav-dTlvVVs6skST_1BOgxQySpFKyt4BW2NGk
+
+{
+    "email": "gamal@gmail.com",
+    "password": "9070"
+}
+
+###
+
+POST http://localhost:5000/post
+content-type: application/json
+
+{
+    "title": "Purple Hibiscus",
+    "username": "Chimamanda",
+    "photoUrl": "https://www.booksthatmatter.co.uk/wp-content/uploads/2018/09/Introduction-to-Purple-Hibiscus.png",
+    "description": "A story about a young girl introduced to religion, love and state of nigeria"
+}
+
+###
+
+GET http://localhost:5000/post
+
+###
+
+GET http://localhost:5000/post/6188e5ebbd1d102a00646a81
+
+###
+
+DELETE http://localhost:5000/post/6188f0b8e5dd663968b290dc
+auth: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjYxODhmMDQ4ZTVkZDY2Mzk2OGIyOTBkNyIsInVzZXJuYW1lIjoiQ2hpbWFtYW5kYSIsImlhdCI6MTYzNjM2NDM2NX0.aiCLWOZjtcEjnH-FaLXUFU9X4AFKJe5NNa0ieJBZd2g
+
+###
+
+PATCH http://localhost:5000/post/6188f0b8e5dd663968b290dc
+content-type: application/json
+auth: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjYxODhmMDQ4ZTVkZDY2Mzk2OGIyOTBkNyIsInVzZXJuYW1lIjoiQ2hpbWFtYW5kYSIsImlhdCI6MTYzNjM2NDM2NX0.aiCLWOZjtcEjnH-FaLXUFU9X4AFKJe5NNa0ieJBZd2g
+
+{
+    "title": "Purple Hibiscus",
+    "username": "Chimamanda",
+    "photoUrl":"https://www.booksthatmatter.co.uk/wp-content/uploads/2018/09/Introduction-to-Purple-Hibiscus.png",
+    "description": "In the midst of life we are in death."
+}

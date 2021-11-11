@@ -1,0 +1,21 @@
+.login {
+  display: flex;
+  flex-direction: column;
+  height: 100vh;
+  justify-content: center;
+  align-items: center;
+  background-image: url("https://img.freepik.com/free-photo/earth-tone-floral-background-wallpaper_53876-102452.jpg?size=626&ext=jpg&ga=GA1.2.2037429681.1628812800");
+  background-size: cover;
+}
+input[type="password"] {
+  padding: 10px;
+  border-radius: 5px;
+  margin: 10px 0;
+}
+.login p {
+  font-size: 20px;
+  font-weight: bold;
+}
+input:focus {
+  outline: none;
+}

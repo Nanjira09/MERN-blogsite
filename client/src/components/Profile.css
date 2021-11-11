@@ -1,0 +1,17 @@
+.profile {
+  padding: 20px;
+  border: 1px solid #d4d4d5;
+}
+.profile form {
+  display: flex;
+  flex-direction: column;
+}
+.del {
+  align-self: flex-end;
+  padding: 10px;
+  background: red;
+  color: white;
+}
+input[type="submit"] {
+  cursor: pointer;
+}
